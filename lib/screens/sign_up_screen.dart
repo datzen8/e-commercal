@@ -25,6 +25,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
         FocusScope.of(context).unfocus();
       },
       child: Scaffold(
+        resizeToAvoidBottomInset: false,
         appBar: CustomAppbar(),
         body: Container(
           padding: EdgeInsets.symmetric(horizontal: 12, vertical: 18),

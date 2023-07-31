@@ -25,7 +25,7 @@ class _CustomTextBoxState extends State<CustomTextBox> {
           left: 22.0,
           right: 22.0,
           bottom: 3.0,
-          top: _isFocused ? 0: 3,
+          top: 3,
         ),
         decoration: BoxDecoration(
             color: Colors.white,
